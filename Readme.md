@@ -19,7 +19,7 @@ npm install datatables.net-scroller-bs
 
 ```
 var $ = require( 'jquery' );
-require( 'datatables.net-scroller-bs' )( $ );
+require( 'datatables.net-scroller-bs' )( window, $ );
 ```
 
 ### bower
