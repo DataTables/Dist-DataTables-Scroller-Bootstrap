@@ -1,3 +1,6 @@
+div.DTS {
+  display: block !important;
+}
 div.DTS tbody th,
 div.DTS tbody td {
   white-space: nowrap;
