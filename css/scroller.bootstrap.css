@@ -5,9 +5,6 @@ div.DTS tbody th,
 div.DTS tbody td {
   white-space: nowrap;
 }
-div.DTS tbody tr.even {
-  background-color: white;
-}
 div.DTS div.DTS_Loading {
   z-index: 1;
 }
@@ -20,4 +17,8 @@ div.DTS div.dataTables_scrollBody table {
 div.DTS div.dataTables_paginate,
 div.DTS div.dataTables_length {
   display: none;
+}
+
+div.DTS tbody tr.even {
+  background-color: white;
 }
