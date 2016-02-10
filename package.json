@@ -5,7 +5,6 @@
     "files": [
         "css/scroller.bootstrap.css"
     ],
-    "main": "./js/scroller.bootstrap.js",
     "keywords": [
         "virtual scrolling",
         "DataTables",
