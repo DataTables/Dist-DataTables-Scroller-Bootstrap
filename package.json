@@ -3,7 +3,7 @@
     "version": "1.4.2",
     "description": "Scroller for DataTables with styling for [Bootstrap 3](http://getbootstrap.com/)",
     "files": [
-        "css/scroller.bootstrap.css"
+        "css/**/*.css"
     ],
     "style": "css/scroller.bootstrap.css",
     "keywords": [
