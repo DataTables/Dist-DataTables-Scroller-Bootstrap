@@ -3,7 +3,8 @@
     "version": "1.4.4",
     "description": "Scroller for DataTables with styling for [Bootstrap 3](http://getbootstrap.com/)",
     "files": [
-        "css/**/*.css"
+        "css/**/*.css",
+        "js/**/*.js"
     ],
     "style": "css/scroller.bootstrap.css",
     "keywords": [
@@ -28,5 +29,6 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/DataTables/Dist-DataTables-Scroller-Bootstrap.git"
-    }
+    },
+    "main": "js/scroller.bootstrap.js"
 }
