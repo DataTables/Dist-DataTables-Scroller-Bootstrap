@@ -1,6 +1,6 @@
 {
     "name": "datatables.net-scroller-bs",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "description": "Scroller for DataTables with styling for [Bootstrap 3](http://getbootstrap.com/)",
     "files": [
         "css/**/*.css",
@@ -24,7 +24,7 @@
     "dependencies": {
         "jquery": ">=1.7",
         "datatables.net-bs": "^1.10.15",
-        "datatables.net-scroller": "2.0.1"
+        "datatables.net-scroller": "2.0.2"
     },
     "repository": {
         "type": "git",
