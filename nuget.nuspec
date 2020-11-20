@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>datatables.net-scroller-bs</id>
+        <version>2.0.2</version>
+        <description>Scroller for DataTables</description>
+        <authors>SpryMedia Ltd</authors>
+        <projectUrl>http://datatables.net</projectUrl>
+        <license type="expression">MIT</license>
+        <tags>scroller DataTables jQuery table Bootstrap</tags>
+        <repository type="git" url="https://github.com/DataTables/Dist-DataTables-Scroller-Bootstrap.git"/>
+        <dependencies>
+            <dependency id="jquery" version="1.7.0"/>
+            <dependency id="datatables.net" version="1.10.15"/>
+            <dependency id="datatables.net-scroller" version="2.0.2"/>
+            <dependency id="bootstrap" version="3.*"/>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="js/scroller.bootstrap.js"/>
+        <file src="js/scroller.bootstrap.min.js"/>
+        <file src="css/scroller.bootstrap.css"/>
+        <file src="css/scroller.bootstrap.min.css"/>
+    </files>
+</package>
