@@ -1,6 +1,6 @@
-# Scroller for DataTables with styling for [Bootstrap](http://getbootstrap.com/)
+# Scroller for DataTables with styling for [Bootstrap](https://getbootstrap.com/docs/3.3/)
 
-This package contains distribution files required to style [Scroller extension](https://datatables.net/extensions/scroller) for [DataTables](https://datatables.net/) with styling for [Bootstrap](http://getbootstrap.com/).
+This package contains a built distribution of the [Scroller extension](https://datatables.net/extensions/Scroller) for [DataTables](https://datatables.net/) with styling for [Bootstrap](https://getbootstrap.com/docs/3.3/).
 
 Scroller is a virtual rendering plug-in for DataTables which allows large datasets to be drawn on screen very quickly. Virtual rendering means is that only the visible portion of the table is drawn, while the scrolling container gives the visual impression that the whole table is visible, allowing excellent browser performance.
 
@@ -19,7 +19,7 @@ npm install datatables.net-scroller-bs
 
 ```
 var $ = require( 'jquery' );
-require( 'datatables.net-scroller-bs' )( window, $ );
+var dt = require( 'datatables.net-scroller-bs}' )( window, $ );
 ```
 
 ### bower
@@ -32,7 +32,7 @@ bower install --save datatables.net-scroller-bs
 
 ## Documentation
 
-Full documentation of the DataTables options, API and plug-in interface are available on the DOCS_LINK. The site also contains information on the wide variety of plug-ins that are available for DataTables, which can be used to enhance and customise your table even further.
+Full documentation and examples for Scroller can be found [on the website](https://datatables.net/extensions/scroller).
 
 
 ## Bug / Support
@@ -48,3 +48,4 @@ If you are thinking of contributing code to DataTables, first of all, thank you!
 ## License
 
 This software is released under the [MIT license](//datatables.net/license). You are free to use, modify and distribute this software, but all copyright information must remain.
+

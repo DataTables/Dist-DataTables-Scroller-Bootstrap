@@ -1,34 +1,47 @@
 {
     "name": "datatables.net-scroller-bs",
+    "description": "Scroller for DataTables with styling for [Bootstrap](https://getbootstrap.com/docs/3.3/)",
+    "main": "js/scroller.bootstrap.js",
+    "style": "css/scroller.bootstrap.css",
     "version": "2.0.3",
-    "description": "Scroller for DataTables with styling for [Bootstrap 3](http://getbootstrap.com/)",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
-    "style": "css/scroller.bootstrap.css",
     "keywords": [
-        "virtual scrolling",
-        "DataTables",
+        "Scroller",
+ "Virtual Scrolling",
+        "Bootstrap",
+        "Datatables",
         "jQuery",
         "table",
-        "Bootstrap"
+        "filter",
+        "sort"
     ],
-    "homepage": "https://datatables.net",
-    "bugs": "https://datatables.net/forums",
-    "license": "MIT",
+    "dependencies": {
+        "datatables.net-scroller": ">=2.0.3",
+        "datatables.net-bs": ">=1.10.24",
+        "jquery": ">=1.7"
+    },
+    "moduleType": [
+        "globals",
+        "amd",
+        "node"
+    ],
+    "ignore": [
+        "composer.json",
+        "datatables.json",
+        "package.json"
+    ],
     "author": {
         "name": "SpryMedia Ltd",
         "url": "http://datatables.net"
     },
-    "dependencies": {
-        "jquery": ">=1.7",
-        "datatables.net-bs": "^1.10.15",
-        "datatables.net-scroller": "2.0.3"
-    },
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "MIT",
     "repository": {
         "type": "git",
         "url": "https://github.com/DataTables/Dist-DataTables-Scroller-Bootstrap.git"
-    },
-    "main": "js/scroller.bootstrap.js"
+    }
 }

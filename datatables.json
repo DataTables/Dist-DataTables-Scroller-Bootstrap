@@ -1,13 +1,15 @@
 {
-    "css": [
-        "css/scroller.bootstrap.css",
-        "css/scroller.bootstrap.min.css"
-    ],
     "js": [
         "js/scroller.bootstrap.js",
         "js/scroller.bootstrap.min.js"
     ],
+    "css": [
+        "css/scroller.bootstrap.css",
+        "css/scroller.bootstrap.min.css"
+    ],
+    "types": [
+        "types/scroller.bootstrap.d.ts"
+    ],
     "src-repo": "http://github.com/DataTables/Scroller",
-    "last-sync": "5ce4af8d3c22bc1008bdf6427f4018adc5045ce4",
     "last-tag": "2.0.3"
 }

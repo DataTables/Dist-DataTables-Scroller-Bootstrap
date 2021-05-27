@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-  <metadata>
-    <id>datatables.net-scroller-bs</id>
-    <version>2.0.2</version>
-    <description>Scroller for DataTables</description>
-    <authors>SpryMedia Ltd</authors>
-    <projectUrl>http://datatables.net</projectUrl>
-    <license type="expression">MIT</license>
-    <tags>scroller DataTables jQuery table Bootstrap</tags>
-    <repository type="git" url="https://github.com/DataTables/Dist-DataTables-Scroller-Bootstrap.git"/>
-    <dependencies>
-      <dependency id="jquery" version="1.7.0"/>
-      <dependency id="datatables.net" version="1.10.15"/>
-      <dependency id="datatables.net-scroller" version="2.0.2"/>
-      <dependency id="bootstrap" version="3.*"/>
-    </dependencies>
-    <contentFiles>
-      <files include="**/*" buildAction="Content"/>
-    </contentFiles>
-  </metadata>
-  <files>
-    <file src="js/scroller.bootstrap.js" target="content\Scripts"/>
-    <file src="js/scroller.bootstrap.min.js" target="content\Scripts"/>
-    <file src="css/scroller.bootstrap.css" target="content\Content"/>
-    <file src="css/scroller.bootstrap.min.css" target="content\Content"/>
-    <file src="js/scroller.bootstrap.js" target="contentFiles\any\any\wwwroot\js"/>
-    <file src="js/scroller.bootstrap.min.js" target="contentFiles\any\any\wwwroot\js"/>
-    <file src="css/scroller.bootstrap.css" target="contentFiles\any\any\wwwroot\css"/>
-    <file src="css/scroller.bootstrap.min.css" target="contentFiles\any\any\wwwroot\css"/>
-  </files>
+    <metadata>
+        <version>2.0.3</version>
+        <id>datatables.net-scroller-bs</id>
+        <description>This is Scroller for DataTables with styling for [Bootstrap](https://getbootstrap.com/docs/3.3/)</description>
+        <repository type="git" url="https://github.com/DataTables/Dist-DataTables-Scroller-Bootstrap.git"/>
+        <authors>SpryMedia Ltd</authors>
+        <projectUrl>http://datatables.net</projectUrl>
+        <license type="expression">MIT</license>
+        <tags>Scroller  Virtual Scrolling  Bootstrap  Datatables jQuery table</tags>
+        <dependencies>
+            <dependency id="datatables.net-scroller" version=">=2.0.3"/>
+            <dependency id="datatables.net-bs" version=">=1.10.24"/>
+        </dependencies>
+        <contentFiles>
+            <files include="**/*" buildAction="Content"/>
+        </contentFiles>
+    </metadata>
+    <files>
+        <file src="js/scroller.bootstrap.js" target="content\Scripts"/>
+        <file src="js/scroller.bootstrap.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/scroller.bootstrap.min.js" target="content\Scripts"/>
+        <file src="js/scroller.bootstrap.min.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="css/scroller.bootstrap.css" target="content\Content"/>
+        <file src="css/scroller.bootstrap.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="css/scroller.bootstrap.min.css" target="content\Content"/>
+        <file src="css/scroller.bootstrap.min.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="types/scroller.bootstrap.d.ts" target="content\Scripts"/>
+        <file src="types/scroller.bootstrap.d.ts" target="contentFiles\any\any\wwwroot\js"/>
+    </files>
 </package>
+
