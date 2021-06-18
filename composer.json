@@ -28,6 +28,6 @@
     ],
     "require": {
         "datatables.net/datatables.net-scroller": ">=2.0.4",
-        "datatables.net/datatables.net-bs": ">=1.10.26-dev"
+        "datatables.net/datatables.net-bs": ">=1.10.25"
     }
 }
