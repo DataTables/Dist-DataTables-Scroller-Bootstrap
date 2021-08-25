@@ -4,14 +4,14 @@
     "main": "js/scroller.bootstrap.js",
     "style": "css/scroller.bootstrap.css",
     "types": "./types/scroller.bootstrap.d.ts",
-    "version": "2.0.4",
+    "version": "2.0.5",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
     "keywords": [
         "Scroller",
- "Virtual Scrolling",
+        "Virtual Scrolling",
         "Bootstrap",
         "Datatables",
         "jQuery",
