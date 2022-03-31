@@ -11,7 +11,7 @@
         <tags>Scroller  Virtual Scrolling  Bootstrap  Datatables jQuery table</tags>
         <dependencies>
             <dependency id="datatables.net-scroller" version="2.0.5"/>
-            <dependency id="datatables.net-bs" version="1.11.3"/>
+            <dependency id="datatables.net-bs" version="1.11.5"/>
         </dependencies>
         <contentFiles>
             <files include="**/*" buildAction="Content"/>
@@ -26,8 +26,6 @@
         <file src="css/scroller.bootstrap.css" target="contentFiles\any\any\wwwroot\css"/>
         <file src="css/scroller.bootstrap.min.css" target="content\Content"/>
         <file src="css/scroller.bootstrap.min.css" target="contentFiles\any\any\wwwroot\css"/>
-        <file src="types/scroller.bootstrap.d.ts" target="content\Scripts"/>
-        <file src="types/scroller.bootstrap.d.ts" target="contentFiles\any\any\wwwroot\js"/>
     </files>
 </package>
 
