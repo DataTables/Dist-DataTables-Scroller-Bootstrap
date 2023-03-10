@@ -8,5 +8,4 @@ import Scroller from 'datatables.net-scroller';
 
 
 
-
 export default DataTable;
