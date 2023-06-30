@@ -10,10 +10,9 @@
         "css/scroller.bootstrap.min.css"
     ],
     "types": [
-        "types/scroller.bootstrap.d.ts",
-        "types/types.d.ts"
+        "types/scroller.bootstrap.d.ts"
     ],
     "src-repo": "http://github.com/DataTables/Scroller",
     "last-tag": "2.1.1",
-    "last-sync": "c99d6953ad30a4c6cb0a93ab51b374474e8dfdcb"
+    "last-sync": ""
 }
