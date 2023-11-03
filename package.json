@@ -5,7 +5,7 @@
     "module": "js/scroller.bootstrap.mjs",
     "style": "css/scroller.bootstrap.css",
     "types": "./types/scroller.bootstrap.d.ts",
-    "version": "2.2.0",
+    "version": "2.3.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -23,8 +23,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-scroller": ">=2.1.1",
-        "datatables.net-bs": ">=1.13.4",
+        "datatables.net-scroller": "2.3.0",
+        "datatables.net-bs": ">=1.11",
         "jquery": ">=1.7"
     },
     "moduleType": [
