@@ -27,7 +27,7 @@ import DataTable from 'datatables.net-bs';
 import 'datatables.net-scroller-bs'
 
 new DataTable('#myTable', {
-    // initalisation options
+    // initialisation options
 });
 ```
 
