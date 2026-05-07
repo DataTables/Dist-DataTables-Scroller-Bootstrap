@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
-        <version>2.4.3</version>
+        <version>3.0.0-beta.1</version>
         <id>datatables.net-scroller-bs</id>
         <description>This is Scroller for DataTables with styling for [Bootstrap](https://getbootstrap.com/docs/3.3/)</description>
-        <repository type="git" url="https://github.com/DataTables/Dist-DataTables-Scroller-Bootstrap.git"/>
+        <repository type="git" url="https://github.com/DataTables/Scroller"/>
         <authors>SpryMedia Ltd</authors>
         <projectUrl>http://datatables.net</projectUrl>
         <license type="expression">MIT</license>
-        <tags>Scroller  Virtual Scrolling  Bootstrap  Datatables jQuery table</tags>
+        <tags>Scroller  Virtual Scrolling  Bootstrap  Datatables table</tags>
         <dependencies>
-            <dependency id="datatables.net-scroller" version="2.4.3"/>
-            <dependency id="datatables.net-bs" version="2.3.2"/>
+            <dependency id="datatables.net-scroller" version="3.0.0-beta.1"/>
+            <dependency id="datatables.net-bs" version="3.0.0-0"/>
         </dependencies>
         <contentFiles>
             <files include="**/*" buildAction="Content"/>
         </contentFiles>
+        <readme>Readme.md</readme>
     </metadata>
     <files>
+        <file src="Readme.md" target=""/>
         <file src="js/scroller.bootstrap.js" target="content\Scripts"/>
         <file src="js/scroller.bootstrap.js" target="contentFiles\any\any\wwwroot\js"/>
         <file src="js/scroller.bootstrap.min.js" target="content\Scripts"/>
@@ -32,4 +34,3 @@
         <file src="css/scroller.bootstrap.min.css" target="contentFiles\any\any\wwwroot\css"/>
     </files>
 </package>
-
