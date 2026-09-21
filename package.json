@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-scroller-bs",
     "description": "Scroller for DataTables with styling for [Bootstrap](https://getbootstrap.com/docs/3.3/)",
-    "main": "js/scroller.bootstrap.js",
-    "module": "js/scroller.bootstrap.mjs",
-    "style": "css/scroller.bootstrap.css",
+    "main": "./js/scroller.bootstrap.js",
+    "module": "./js/scroller.bootstrap.mjs",
+    "style": "./css/scroller.bootstrap.css",
     "types": "./types/scroller.bootstrap.d.ts",
     "version": "3.0.0",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "Scroller",
@@ -35,5 +34,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/Scroller.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/scroller.bootstrap.d.ts",
+            "import": "./js/scroller.bootstrap.mjs",
+            "default": "./js/scroller.bootstrap.mjs",
+            "require": "./js/scroller.bootstrap.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/scroller.bootstrap.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
