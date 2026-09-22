@@ -5,7 +5,7 @@
     "module": "./js/scroller.bootstrap.mjs",
     "style": "./css/scroller.bootstrap.css",
     "types": "./types/scroller.bootstrap.d.ts",
-    "version": "3.0.0",
+    "version": "3.1.0",
     "files": [
         "js",
         "css",
@@ -21,8 +21,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-scroller": "3.0.0",
-        "datatables.net-bs": "^3"
+        "datatables.net-scroller": "3.1.0",
+        "datatables.net-bs": "^3.1"
     },
     "author": {
         "name": "SpryMedia Ltd",
