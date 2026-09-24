@@ -38,9 +38,10 @@
     "exports": {
         ".": {
             "types": "./types/scroller.bootstrap.d.ts",
+            "style": "./css/scroller.bootstrap.css",
             "import": "./js/scroller.bootstrap.mjs",
-            "default": "./js/scroller.bootstrap.mjs",
-            "require": "./js/scroller.bootstrap.js"
+            "require": "./js/scroller.bootstrap.js",
+            "default": "./js/scroller.bootstrap.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
